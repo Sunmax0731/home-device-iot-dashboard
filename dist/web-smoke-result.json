@@ -6,6 +6,6 @@
     "run-review",
     "scenario-list"
   ],
-  "checkedAt": "2026-05-08T00:04:04.610Z",
+  "checkedAt": "stable-web-smoke",
   "manualBrowserTest": "not-run-by-codex"
 }

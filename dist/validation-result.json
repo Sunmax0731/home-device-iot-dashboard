@@ -1,7 +1,7 @@
 {
   "product": "home-device-iot-dashboard",
   "domain": "WebApp",
-  "generatedAt": "2026-05-08T00:04:04.593Z",
+  "generatedAt": "stable-validation-run",
   "totals": {
     "passes": 2,
     "failures": 2,
