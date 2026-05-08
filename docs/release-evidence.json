@@ -1,7 +1,21 @@
 {
   "product": "home-device-iot-dashboard",
+  "repository": "Sunmax0731/home-device-iot-dashboard",
+  "githubUrl": "https://github.com/Sunmax0731/home-device-iot-dashboard",
   "tag": "v0.1.0-alpha.1",
-  "status": "pending-release",
+  "releaseUrl": "https://github.com/Sunmax0731/home-device-iot-dashboard/releases/tag/v0.1.0-alpha.1",
+  "prerelease": true,
+  "assetCount": 3,
+  "assets": [
+    "home-device-iot-dashboard-docs.zip",
+    "manual-test.md",
+    "strict-manual-test-addendum.md"
+  ],
+  "latestCheck": {
+    "exitCode": 1,
+    "isLatest": false,
+    "evidence": "releases/latest returned 404 or did not return this prerelease tag"
+  },
   "manualTest": "not-run-by-codex",
-  "generatedAt": "2026-05-08T00:03:51Z"
+  "checkedAt": "2026-05-08T00:04:04Z"
 }
