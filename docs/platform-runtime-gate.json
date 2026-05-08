@@ -1,0 +1,13 @@
+{
+  "product": "home-device-iot-dashboard",
+  "title": "家庭内デバイス・IoT管理画面",
+  "domain": "WebApp",
+  "ideaNo": 8,
+  "platformType": "browser-web",
+  "expectedPublicTarget": "GitHub Pages / GitHub Release",
+  "browser": {
+    "evidence": "dist/web-smoke-result.json"
+  },
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
