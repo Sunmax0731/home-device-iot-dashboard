@@ -1,0 +1,11 @@
+{
+  "method": "static-html-dom-equivalent",
+  "notBlank": true,
+  "markers": [
+    "data-product-root",
+    "run-review",
+    "scenario-list"
+  ],
+  "checkedAt": "2026-05-08T00:03:52.365Z",
+  "manualBrowserTest": "not-run-by-codex"
+}
