@@ -1,0 +1,90 @@
+{
+  "product": "home-device-iot-dashboard",
+  "generatedAt": "2026-05-08T00:03:51Z",
+  "scenarios": [
+    {
+      "id": "happy-path",
+      "records": [
+        {
+          "title": "家庭内デバイス・IoT管理画面",
+          "room": "家庭内デバイス・IoT管理画面 room",
+          "nextAction": "機器ごとの点検状態と次アクションを一覧化する",
+          "networkNote": "家庭内デバイス・IoT管理画面 networkNote",
+          "reviewDate": "家庭内デバイス・IoT管理画面 reviewDate",
+          "id": "hp-001"
+        }
+      ],
+      "expected": {
+        "passes": 1,
+        "failures": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "id": "missing-required",
+      "records": [
+        {
+          "room": "家庭内デバイス・IoT管理画面 room",
+          "nextAction": "機器ごとの点検状態と次アクションを一覧化する",
+          "networkNote": "家庭内デバイス・IoT管理画面 networkNote",
+          "reviewDate": "家庭内デバイス・IoT管理画面 reviewDate",
+          "id": "missing-001"
+        }
+      ],
+      "expected": {
+        "passes": 0,
+        "failures": 1,
+        "warnings": 0
+      }
+    },
+    {
+      "id": "warning",
+      "records": [
+        {
+          "title": "家庭内デバイス・IoT管理画面",
+          "room": "家庭内デバイス・IoT管理画面 room",
+          "nextAction": "機器ごとの点検状態と次アクションを一覧化する",
+          "reviewDate": "家庭内デバイス・IoT管理画面 reviewDate",
+          "id": "warn-001"
+        }
+      ],
+      "expected": {
+        "passes": 0,
+        "failures": 0,
+        "warnings": 1
+      }
+    },
+    {
+      "id": "mixed-batch",
+      "records": [
+        {
+          "title": "家庭内デバイス・IoT管理画面",
+          "room": "家庭内デバイス・IoT管理画面 room",
+          "nextAction": "機器ごとの点検状態と次アクションを一覧化する",
+          "networkNote": "家庭内デバイス・IoT管理画面 networkNote",
+          "reviewDate": "家庭内デバイス・IoT管理画面 reviewDate",
+          "id": "mixed-ok-001"
+        },
+        {
+          "title": "家庭内デバイス・IoT管理画面",
+          "room": "家庭内デバイス・IoT管理画面 room",
+          "networkNote": "家庭内デバイス・IoT管理画面 networkNote",
+          "reviewDate": "家庭内デバイス・IoT管理画面 reviewDate",
+          "id": "mixed-bad-001"
+        },
+        {
+          "title": "家庭内デバイス・IoT管理画面",
+          "room": "家庭内デバイス・IoT管理画面 room",
+          "nextAction": "機器ごとの点検状態と次アクションを一覧化する",
+          "reviewDate": "家庭内デバイス・IoT管理画面 reviewDate",
+          "id": "warn-001"
+        }
+      ],
+      "expected": {
+        "passes": 1,
+        "failures": 1,
+        "warnings": 1
+      }
+    }
+  ]
+}
